@@ -14,6 +14,8 @@
 		5A7A9FC81C4A3DED009A9034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A9FC61C4A3DED009A9034 /* LaunchScreen.storyboard */; };
 		5A7A9FD31C4A3DED009A9034 /* PrototypeCalciumCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A9FD21C4A3DED009A9034 /* PrototypeCalciumCalTests.swift */; };
 		5A7A9FDE1C4A3DED009A9034 /* PrototypeCalciumCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A9FDD1C4A3DED009A9034 /* PrototypeCalciumCalUITests.swift */; };
+		5A7A9FEC1C4A4533009A9034 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A7A9FEB1C4A4533009A9034 /* iAd.framework */; };
+		5A7A9FEE1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A9FED1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		5A7A9FD91C4A3DED009A9034 /* PrototypeCalciumCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeCalciumCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7A9FDD1C4A3DED009A9034 /* PrototypeCalciumCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCalciumCalUITests.swift; sourceTree = "<group>"; };
 		5A7A9FDF1C4A3DED009A9034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7A9FEB1C4A4533009A9034 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5A7A9FED1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeCalTableViewTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A7A9FEC1C4A4533009A9034 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		5A7A9FB11C4A3DEC009A9034 = {
 			isa = PBXGroup;
 			children = (
+				5A7A9FEB1C4A4533009A9034 /* iAd.framework */,
 				5A7A9FBC1C4A3DED009A9034 /* PrototypeCalciumCal */,
 				5A7A9FD11C4A3DED009A9034 /* PrototypeCalciumCalTests */,
 				5A7A9FDC1C4A3DED009A9034 /* PrototypeCalciumCalUITests */,
@@ -99,6 +105,7 @@
 			children = (
 				5A7A9FBD1C4A3DED009A9034 /* AppDelegate.swift */,
 				5A7A9FBF1C4A3DED009A9034 /* ViewController.swift */,
+				5A7A9FED1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift */,
 				5A7A9FC11C4A3DED009A9034 /* Main.storyboard */,
 				5A7A9FC41C4A3DED009A9034 /* Assets.xcassets */,
 				5A7A9FC61C4A3DED009A9034 /* LaunchScreen.storyboard */,
@@ -258,6 +265,7 @@
 			files = (
 				5A7A9FC01C4A3DED009A9034 /* ViewController.swift in Sources */,
 				5A7A9FBE1C4A3DED009A9034 /* AppDelegate.swift in Sources */,
+				5A7A9FEE1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
