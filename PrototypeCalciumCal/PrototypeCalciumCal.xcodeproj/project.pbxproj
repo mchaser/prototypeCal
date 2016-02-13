@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A29E88A1C6F833300B6B84D /* CalciumCalBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A29E8891C6F833300B6B84D /* CalciumCalBrain.swift */; };
 		5A7A9FBE1C4A3DED009A9034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A9FBD1C4A3DED009A9034 /* AppDelegate.swift */; };
 		5A7A9FC01C4A3DED009A9034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A9FBF1C4A3DED009A9034 /* ViewController.swift */; };
 		5A7A9FC31C4A3DED009A9034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7A9FC11C4A3DED009A9034 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A29E8891C6F833300B6B84D /* CalciumCalBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalciumCalBrain.swift; sourceTree = "<group>"; };
 		5A7A9FBA1C4A3DED009A9034 /* PrototypeCalciumCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrototypeCalciumCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7A9FBD1C4A3DED009A9034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7A9FBF1C4A3DED009A9034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				5A7A9FBD1C4A3DED009A9034 /* AppDelegate.swift */,
+				5A29E8891C6F833300B6B84D /* CalciumCalBrain.swift */,
 				5A7A9FBF1C4A3DED009A9034 /* ViewController.swift */,
 				5A7A9FED1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift */,
 				5A7A9FC11C4A3DED009A9034 /* Main.storyboard */,
@@ -265,6 +268,7 @@
 			files = (
 				5A7A9FC01C4A3DED009A9034 /* ViewController.swift in Sources */,
 				5A7A9FBE1C4A3DED009A9034 /* AppDelegate.swift in Sources */,
+				5A29E88A1C6F833300B6B84D /* CalciumCalBrain.swift in Sources */,
 				5A7A9FEE1C4A4CCF009A9034 /* PrototypeCalTableViewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +496,7 @@
 				5A7A9FE41C4A3DED009A9034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A7A9FE51C4A3DED009A9034 /* Build configuration list for PBXNativeTarget "PrototypeCalciumCalTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				5A7A9FE71C4A3DED009A9034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A7A9FE81C4A3DED009A9034 /* Build configuration list for PBXNativeTarget "PrototypeCalciumCalUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				5A7A9FEA1C4A3DED009A9034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
