@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E27e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7Pm-Ny-ige">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--PrototypeCalciumCal-->
+        <scene sceneID="6Ha-TE-GUh">
+            <objects>
+                <viewController id="MCt-uv-cK7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bAI-ip-N6K"/>
+                        <viewControllerLayoutGuide type="bottom" id="JNA-tx-FZQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZGy-kp-gMn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="34" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="V2y-96-1R6">
+                                <rect key="frame" x="0.0" y="72" width="600" height="471"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="471" id="wOt-MY-VQa"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="HAN-GE-x9C" detailTextLabel="F4y-6r-rK4" rowHeight="34" style="IBUITableViewCellStyleValue1" id="TaW-vh-ZZO">
+                                        <rect key="frame" x="0.0" y="92" width="600" height="34"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TaW-vh-ZZO" id="h3c-me-CJv">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="33"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Simple Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HAN-GE-x9C">
+                                                    <rect key="frame" x="15" y="7" width="127" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="A real simple calculator." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F4y-6r-rK4">
+                                                    <rect key="frame" x="413" y="7" width="172" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="gray" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="QNz-LG-Gfk" detailTextLabel="hxj-ki-CqP" rowHeight="34" style="IBUITableViewCellStyleValue1" id="GFB-Cw-5dd">
+                                        <rect key="frame" x="0.0" y="126" width="600" height="34"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GFB-Cw-5dd" id="vy0-J0-P39">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="33"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Tip Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QNz-LG-Gfk">
+                                                    <rect key="frame" x="15" y="7" width="101" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Calculate tips fast and easy." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hxj-ki-CqP">
+                                                    <rect key="frame" x="382" y="7" width="203" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="MCt-uv-cK7" id="2ku-sg-6Bg"/>
+                                    <outlet property="delegate" destination="MCt-uv-cK7" id="lcH-6J-ddZ"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LtO-Eg-ltS">
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <items>
+                                    <navigationItem id="O1S-O0-qb5"/>
+                                </items>
+                            </navigationBar>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="dpL-gX-SXz">
+                                <rect key="frame" x="0.0" y="551" width="480" height="32"/>
+                            </adBannerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="V2y-96-1R6" secondAttribute="trailing" id="4Fa-5F-Tmi"/>
+                            <constraint firstItem="dpL-gX-SXz" firstAttribute="top" secondItem="V2y-96-1R6" secondAttribute="bottom" constant="8" symbolic="YES" id="9fK-TC-2Y6"/>
+                            <constraint firstItem="V2y-96-1R6" firstAttribute="top" secondItem="ZGy-kp-gMn" secondAttribute="top" constant="72" id="HV7-7B-pKc"/>
+                            <constraint firstItem="V2y-96-1R6" firstAttribute="trailing" secondItem="LtO-Eg-ltS" secondAttribute="trailing" id="Uph-Lj-2U3"/>
+                            <constraint firstItem="dpL-gX-SXz" firstAttribute="leading" secondItem="V2y-96-1R6" secondAttribute="leading" id="eS3-QB-0QX"/>
+                            <constraint firstItem="V2y-96-1R6" firstAttribute="top" secondItem="LtO-Eg-ltS" secondAttribute="bottom" id="ie2-gj-Ksx"/>
+                            <constraint firstItem="dpL-gX-SXz" firstAttribute="leading" secondItem="LtO-Eg-ltS" secondAttribute="leading" id="irh-Wg-QlQ"/>
+                            <constraint firstItem="dpL-gX-SXz" firstAttribute="leading" secondItem="ZGy-kp-gMn" secondAttribute="leading" id="n9R-Xy-ZYP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="PrototypeCalciumCal" id="p6L-La-1hJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMQ-S1-ogE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1532" y="-745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="y8H-Qc-6e9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7Pm-Ny-ige" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ekD-ql-iqW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="MCt-uv-cK7" kind="relationship" relationship="rootViewController" id="OXH-8i-C9G"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qeZ-92-GD6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="-745"/>
+        </scene>
+    </scenes>
+</document>
